@@ -1,0 +1,37 @@
+.category-card {
+    display: inline;
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    min-width: 202px;
+    position: relative;
+}
+
+ .category-text-position {
+    width: 100%;
+    position: absolute;
+    bottom: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.category-card:hover .category-text-position {
+    bottom: 40px;
+}
+
+@media only screen and (max-width: 699px) {
+    .category-card {
+        min-width: 58px;
+    }
+    .border-rad-10 {
+        border-radius: 50%;
+        width: 58px;
+        height: 58px;
+        object-fit: cover;
+    }
+    .category-text-position {
+        position: relative;
+        justify-content: left;
+        bottom: 0;
+    }
+}

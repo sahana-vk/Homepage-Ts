@@ -1,0 +1,10 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hamburger {
+    margin-right: 16px;
+}

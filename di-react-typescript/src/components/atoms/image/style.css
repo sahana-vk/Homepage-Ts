@@ -1,0 +1,19 @@
+.border-rad-10 {
+    border-radius: 10px;
+}
+
+.app-logo {
+    width: 190px;
+}
+
+@media only screen and (max-width: 699px) {
+    .border-rad-10  {
+        width: 100%;
+    }
+    .carousel-card-image {
+        width: 100%;
+    }
+    .app-logo {
+        width: 100px;
+    }
+}

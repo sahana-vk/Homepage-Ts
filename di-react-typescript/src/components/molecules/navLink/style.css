@@ -1,0 +1,10 @@
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 699px) {
+    .nav-links {
+        display: none;
+    }
+}

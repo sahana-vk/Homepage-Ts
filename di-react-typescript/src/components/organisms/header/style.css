@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    background-color: #121317;
+    display: flex;
+}
+
+.header-toolbar {
+    padding: 0px 24px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.grow {
+    flex-grow: 1;
+}
